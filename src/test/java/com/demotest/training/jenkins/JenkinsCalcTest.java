@@ -1,4 +1,4 @@
-package com.renju.training.jenkins;
+package com.training.jenkins;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;

@@ -1,4 +1,4 @@
-package com.renju.training.jenkins;
+package com.training.jenkins;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

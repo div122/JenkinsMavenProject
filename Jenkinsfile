@@ -1,5 +1,5 @@
 pipeline {
- 
+ stages{
     stage('Build') {
         echo " Inside build"   
     }
@@ -14,4 +14,5 @@ pipeline {
     stage('checking') {
         echo "check"    
     } 
+}
 }

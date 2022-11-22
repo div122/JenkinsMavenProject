@@ -14,10 +14,15 @@ pipeline {
     }    
         
     stage('deploy') {
-        echo "Inside deploy"    
+         steps{
+           echo "Inside deploy"
+         }
+         
     }    
     stage('checking') {
-        echo "check"    
+         steps{
+          echo "check"   
+         }
     } 
 }
 }

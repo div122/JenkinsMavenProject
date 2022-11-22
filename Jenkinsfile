@@ -3,9 +3,9 @@ pipeline {
  stages{
   
     stage('Build') {
-     
+       steps{
         echo " Inside build"  
-     
+       }
     }
             
     stage('test') {
